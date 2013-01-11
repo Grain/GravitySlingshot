@@ -1,4 +1,4 @@
 GravitySlingshot
 ================
 
-A simple gravity assist simulation I made for a grade 12 physics presentation
+A simple gravity assist simulation I made in SFML 2.0 for a grade 12 physics presentation
