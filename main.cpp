@@ -85,6 +85,9 @@ int main()
     sf::Texture sol;
     sf::Texture planetImages[10];
 
+    sf::Font font;
+    font.loadFromFile("arial.ttf");
+
     int a;
     char b[] = "0.png";
     for(a = 0; a < 10; ++a) //planet images from http://jangodb.deviantart.com/art/Planet-Renders-170504314
@@ -96,7 +99,7 @@ int main()
     sol.loadFromFile("sun.png");
 
     //speedometer
-    sf::Text text("");
+    sf::Text text("", font);
     text.setPosition(15, 10);
     text.setColor(sf::Color::White);
 
